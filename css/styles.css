@@ -1,0 +1,278 @@
+/* ---------------------------
+  Basic Styling
+--------------------------- */
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #4A4A4A;
+  background-color: #fafafa;
+  margin: 0px;
+  text-align: center;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav a{
+  display: block;
+  background-color: white;
+  margin: 6px 0;
+  padding: 12px;
+}
+
+a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4A4A4A;
+  font-weight: bold;
+}
+
+#portfolio {
+  background-color: white;
+}
+
+/* ---------------------------
+Font Styling
+--------------------------- */
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+p {
+  color: #7F7F7F;
+  font-weight: lighter;
+}
+
+.banner p{
+  color: #7F7F7F;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+footer h1 {
+  font-size: 14px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+/* ---------------------------
+  Basic Layout
+--------------------------- */
+
+.main-nav {
+  padding: 0 12px;
+}
+
+.banner p{
+  padding: 12px;
+}
+
+.banner img{
+  padding-top: 24px;
+  max-width: 60%;
+}
+
+h2 {
+  margin: 0px;
+  padding: 48px 0;
+}
+
+#portfolio {
+  padding: 0 12px;
+}
+
+.project img {
+  max-width: 100%;
+}
+
+.project {
+  padding-bottom: 24px;
+}
+
+#contact{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+footer {
+  margin: 0 12px;
+  padding: 24px 0;
+  border-top: 1px solid lightgrey;
+}
+
+footer h1  {
+  margin: 0px;
+  float: left;
+}
+
+footer a  {
+  float: right;
+}
+
+footer ul {
+  display: none;
+}
+
+/* ---------------------------
+  Responsive Layout
+--------------------------- */
+
+@media (min-width: 320px) {
+
+}
+
+@media (min-width: 768px) {
+
+  .main-nav {
+    padding-top: 24px;
+  }
+
+  .main-nav li {
+    display: inline;
+  }
+
+  .main-nav a{
+    display: inline-block;
+    background-color: transparent;
+    margin: 0;
+    padding: 12px;
+  }
+
+  .banner {
+    padding-bottom: 48px;
+  }
+
+  .banner .container {
+    padding: 24px;
+  }
+
+  .banner img{
+    float: right;
+    width: 35%;
+  }
+
+  .banner p{
+    float: left;
+    width: 55%;
+    text-align: left;
+    font-size: 18px;
+
+  }
+
+  #portfolio {
+    padding: 0 24px;
+  }
+
+  .col {
+    max-width: 50%;
+    float: left;
+  }
+
+  .col .project {
+    padding: 0 6px 36px 6px;
+  }
+
+  #contact {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+  }
+
+  .back-to-top {
+    display: none;
+  }
+  footer ul {
+    display: inline;
+  }
+  footer a {
+    margin-left: 24px;
+  }
+  footer {
+    margin: 0 36px;
+    padding-bottom: 96px;
+  }
+
+@media (min-width: 1024px) {
+
+  .main-nav {
+    padding: 48px;
+  }
+
+  .main-nav a{
+    padding: 6px;
+  }
+
+  .main-nav h1 {
+    margin: 0px;
+    float: left;
+  }
+
+  .main-nav ul {
+    float: right;
+  }
+
+  .banner .container{
+    padding: 48px;
+    padding-top: 0px;
+  }
+
+  .banner img {
+    padding-top: 0px;
+  }
+
+  .banner p {
+    padding: 0px;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+  #portfolio {
+    margin: 0 24px;
+  }
+
+  .col {
+    max-width: 33.33%;
+    float: left;
+  }
+
+  .col .project {
+    padding: 0 12px 36px 12px;
+  }
+
+  #contact {
+    max-width: 60%;
+    font-size: 20px;
+  }
+  footer {
+    padding-bottom: 24px;
+  }
+
+}
